@@ -1,6 +1,32 @@
-.masthead {
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff6f3;
+  color: #630a10;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#logo h4 a {
+  font-family: "Palette Mosaic", cursive;
+  color: #630a10;
+  text-transform: none;
+  font-size: 35px;
+}
+
+.nav-links li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 8rem;
+  font-weight: bold;
+  font-size: 18px;
 }
