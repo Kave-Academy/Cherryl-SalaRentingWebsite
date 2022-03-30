@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* navbar */
 nav {
   display: flex;
   justify-content: space-around;
@@ -29,4 +31,37 @@ nav {
   margin-left: 8rem;
   font-weight: bold;
   font-size: 18px;
+}
+/* Image */
+.masthead {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#findRoom {
+  padding: 30rem 0 0 5rem;
+}
+#findRoom h2 {
+  color: #fff6f3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+/* Search button */
+.search {
+  position: absolute;
+  color: #fff6f3;
+  list-style: none;
+  background-color: #630a10;
+  border-radius: 10px;
+  padding: 10px 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: bold;
+  text-align: left;
 }
